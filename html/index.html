@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<title>"Alejandra Marin Molano"</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js">
+	</script>
+</head>
+<body>
+	<div class="wrapper">
+		<header id="two_column" class="clearfix">
+			<img src="images/logo.png" alt="Alejandra Marin logo" class="logo">
+			<nav class="menu">
+				<a href="index.html">Home</a>	
+				<a href="stands.html ">Stands</a>
+				<a href="graphic.html">Graphic</a>
+				<a href="retail.html">Retail and POP</a>
+				<a href="renders.html">Renders</a>
+				<a href="animation.html">Animation</a>
+			</nav>
+			<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
+		</header>
+		<section class="clearfix">
+			<img src="images/me.jpg" alt="front page" class="img">
+			<h1 class="hi"><strong>Hi there!!</strong> I am an Indutrial designer</h1>
+			<p class="welcome">...Thanks for coming...</p>
+			
+			<p class="paragraph">Yes I am an industrial designer so I create “things” … but sometimes I also paint, draw and do some coding. <strong>Why?</strong> Because I like it… I like learning new skills and explore new software. I like challenging myself. This is why after 5 years of experience in commercial design and P.O.P I took an airplane and came down and under (all the way from Colombia to Sydney) to learn and face other challenge… in other language. In this new place I have done some freelance jobs in drafting, designing and video editing. I am still learning about coding. In fact you are looking at my first creation… this website… Thanks to my fulltime job I have improved my customer service, management skills and of course my capacity of working under pressure and solving problems quick and efficient.
+
+			<p class="paragraph1">This is my website portfolio and you will see some of the most relavant designs I have created during my work experience. Each of them had taught me something important that I have not forgoten and have put in practice for other designs.</p>
+			<p class="skills">My Skills</p>
+			<p class="skills1"> Well.. this are some of the software I use. I might not be a complete expert in some of them but I think I can work on them. In some others I am not to bad.</p>
+			<ul>
+				<li>3D Max</li>
+				<li>Rhino</li>
+				<li>AutoCAD</li>
+				<li>Maya</li>
+				<li>V-Ray</li>
+				<li>Adobe Illustrator</li>
+				<li>After Effects</li>
+				<li>Adobe Photoshop</li>
+				<li>HTML/CSS</li>
+
+			</ul>
+
+		</section>
+		<footer id="contact">
+			<a id="contact" href="mailto:magma.alejandra@gmail.com">Contact me: magma.alejandra@gmail.com</a> 
+		</footer>
+	</div>
+	<script>
+$( document ).ready(function() {
+$( ".hamburger" ).click(function() {
+$( ".menu" ).toggle( "active", function() {
+$( ".hamburger" ).hide();
+$( ".cross" ).active();
+});
+});
+
+$( ".cross" ).click(function() {
+$( ".menu" ).slideToggle( "active", function() {
+$( ".cross" ).hide();
+$( ".hamburger" ).active();
+});
+});
+
+});
+
+</script>
+</body>
+</html>
